@@ -3,11 +3,14 @@ This module is a nginx module that demo how make nginx dance with memcached
 ## Install
    drop the debug.sh to the base dir of nginx, then run debug.sh
    the directory tree is like this:
+   ```ruby
    ├── nginx-1.0.5 \n
    │   └── debug.sh \n
    └── mod_memcache  \n
+   ```
 
 ## nginx.conf
+   ```ruby
    worker_processes  1;
    daemon off; 
    master_process  off;
@@ -32,14 +35,16 @@ This module is a nginx module that demo how make nginx dance with memcached
    		}
    	}
    }
-   
+   ```
 ## Simple Usage:
+   ```shell
    objs/nginx -c /path/to/your/config
    curl http://127.0.0.1/get/mk=key
+   ```
 
 ## TODO:
-   Set Key
-   Multi Key
-   Delete Key
-   AutoIncr
-   Connection Pool
+   * Set Key
+   * Multi Key
+   * Delete Key
+   * AutoIncr
+   * Connection Pool
