@@ -3,6 +3,7 @@ This module is a nginx module that demo how make nginx dance with memcached
 ## Install
    drop the debug.sh to the base dir of nginx, then run debug.sh
    the directory tree is like this:
+
    ```ruby
    ├── nginx-1.0.5 \n
    │   └── debug.sh \n
