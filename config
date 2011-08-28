@@ -1,0 +1,4 @@
+ngx_addon_name=ngx_module_memcache
+HTTP_MODULES="$HTTP_MODULES ngx_http_mod_memcache_module"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/mod_memcache.c"
+CORE_LIBS="$CORE_LIBS -lmemcached"
