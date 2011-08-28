@@ -5,9 +5,9 @@ This module is a nginx module that demo how make nginx dance with memcached
    the directory tree is like this:
 
    ```ruby
-   ├── nginx-1.0.5 \n
-   │   └── debug.sh \n
-   └── mod_memcache  \n
+   ├── nginx-1.0.5 
+   │   └── debug.sh
+   └── mod_memcache  
    ```
 
 ## nginx.conf
